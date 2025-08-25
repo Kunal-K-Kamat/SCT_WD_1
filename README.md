@@ -27,6 +27,3 @@
 
 ---
 
-## Video Guide
-
-![Responsive Landing Page](Project1-By-KKK.mp4)
