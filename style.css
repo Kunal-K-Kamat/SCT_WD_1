@@ -1,0 +1,308 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(51, 7, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: rgb(204, 143, 222);
+  transition: background-color 0.5s ease;
+  padding-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.navbar li a:hover {
+  color: pink;
+}
+
+/* section {
+  padding-top: 100px; /* must be greater than or equal to navbar height 
+} */
+
+#logo {
+  height: auto;
+  width: 60px;
+  margin-right: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-content1 {
+  text-align: center;
+}
+
+.section-content2 {
+  text-align: center;
+}
+
+.section-content3 {
+  text-align: center;
+}
+
+#heading1 {
+  font-size: 60px;
+}
+
+#heading2 {
+  font-size: 50px;
+}
+
+#heading3 {
+  font-size: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  padding: 20px 40px; /* less vertical space */
+}
+
+.skill-card {
+  background-color: rgb(122, 138, 242);
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  padding: 20px 25px;
+  font-size: 18px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  max-width: 300px;
+  flex: 1 1 280px;
+  transition: transform 0.3s ease;
+  font-size: 26px;
+  height: auto; /* Let height fit content */
+  min-height: unset; /* Remove any min-height if applied */
+  flex: unset; /* Remove fixed growth/shrink behavior */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background-color: rgb(170, 180, 245);
+}
+
+#heading4 {
+  font-size: 25px;
+}
+
+#heading5 {
+  font-size: 22px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: rgb(233, 181, 243);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  background-color: rgb(253, 211, 242);
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.edu-card {
+  background: rgb(144, 158, 247);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid black;
+  font-size: 19.5px;
+}
+
+.edu-card:hover {
+  transform: translateY(-10px);
+  background-color: rgb(170, 180, 245);
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-form {
+  background-color: rgb(233, 180, 229);
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #b833cc;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #b833cc;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #a028b3;
+}
+
+/* Mobile responsiveness for screens under 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .navbar li a {
+    font-size: 20px;
+  }
+
+  #logo {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+  }
+
+  body {
+    padding-top: 250px;
+  }
+
+  section {
+    padding: 20px 5%;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center; /* centers the cards */
+    gap: 1rem;
+    padding: 10px;
+  }
+
+  .skill-card {
+    width: auto; /* let it shrink to content */
+    max-width: 90%; /* prevent it from overflowing screen */
+    font-size: 18px;
+    box-sizing: border-box; /* prevent overflow */
+    height: auto;
+    min-height: unset;
+    flex: none;
+  }
+
+  /* PROJECTS + EDUCATION SECTION */
+  .project-grid,
+  .edu-grid {
+    grid-template-columns: 1fr; /* One column only */
+    gap: 1rem;
+  }
+
+  .project-card,
+  .edu-card {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  #heading1 {
+    font-size: 28px;
+  }
+
+  #heading2 {
+    font-size: 22px;
+  }
+
+  #heading3,
+  #heading4,
+  #heading5 {
+    font-size: 16px;
+  }
+}
