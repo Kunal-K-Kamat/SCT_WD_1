@@ -7,12 +7,12 @@ A modern and fully responsive **landing page** featuring a **sticky navigation b
 ## Project Structure
 
 ```bash
-**SCT_WD_1/**
-│── **index.html**     # Main landing page
-│── **style.css**      # Styling and responsiveness
-│── **script.js**      # JavaScript for interactivity
-│── **Kunal.png**      # Logo/Image
-└── **README.md**      # Documentation
+SCT_WD_1/
+│── index.html    # Main landing page
+│── style.css     # Styling and responsiveness
+│── script.js     # JavaScript for interactivity
+│── Kunal.png     # Logo/Image
+└── README.md     # Documentation
 ```
 
 ---
