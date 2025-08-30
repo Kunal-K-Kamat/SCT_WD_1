@@ -6,16 +6,18 @@ A modern and fully responsive **landing page** featuring a **sticky navigation b
 
 ## Project Structure
 
+```bash
 **SCT_WD_1/**
-│── **index.html** # Main landing page
-│── **style.css** # Styling and responsiveness
-│── **script.js** # JavaScript for interactivity
-│── **Kunal.png** # Logo/Image
-└── **README.md** # Documentation
+│── **index.html**     # Main landing page
+│── **style.css**      # Styling and responsiveness
+│── **script.js**      # JavaScript for interactivity
+│── **Kunal.png**      # Logo/Image
+└── **README.md**      # Documentation
+```
 
 ---
 
-## 💻 Objectives
+## Objectives
 
 ### To create an interactive navigation menu that:
 
@@ -25,7 +27,7 @@ A modern and fully responsive **landing page** featuring a **sticky navigation b
 
 ---
 
-## 🛠 Tech Stack Used
+## Tech Stack Used
 
 - HTML5 – Structuring the navigation bar and sections
 - CSS3 – Styling, responsiveness via Flexbox & Media Queries
@@ -33,7 +35,7 @@ A modern and fully responsive **landing page** featuring a **sticky navigation b
 
 ---
 
-## ✨ Key Features Implemented
+## Key Features Implemented
 
 - Dynamic Background Color Change while scrolling
 - Hover Effects for better interactivity
