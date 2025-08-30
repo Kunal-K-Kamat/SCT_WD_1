@@ -1,5 +1,20 @@
 # Responsive Landing Page – Interactive Navigation Menu
 
+A modern and fully responsive **landing page** featuring a **sticky navigation bar** with **dynamic styling on scroll and hover effects**.
+
+---
+
+## Project Structure
+
+**SCT_WD_1/**
+│── **index.html** # Main landing page
+│── **style.css** # Styling and responsiveness
+│── **script.js** # JavaScript for interactivity
+│── **Kunal.png** # Logo/Image
+└── **README.md** # Documentation
+
+---
+
 ## 💻 Objectives
 
 ### To create an interactive navigation menu that:
@@ -26,4 +41,3 @@
 - Mobile-Friendly Design for smooth viewing across all devices
 
 ---
-
